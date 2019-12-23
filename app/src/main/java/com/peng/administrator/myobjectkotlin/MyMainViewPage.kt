@@ -14,7 +14,7 @@ import android.view.MotionEvent
  */
 class MyMainViewPage(context: Context, attrs: AttributeSet?) : ViewPager(context, attrs) {
 
-    public var noScroll = true
+    var noScroll = true
 
     constructor(context: Context) : this(context, null) {
 

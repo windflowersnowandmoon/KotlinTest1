@@ -43,8 +43,9 @@ class MainActivity : AppCompatActivity() {
         viewPageAdapter?.updataList(fragments)
 //        tab_layout.setupWithViewPager(vp)
 
-
     }
 
-//    fun
+    public fun setViewPageScroll(noScroll : Boolean){
+        vp.noScroll = noScroll
+    }
 }

@@ -84,9 +84,9 @@ class BlankParentFragment : Fragment() {
     override fun onHiddenChanged(hidden: Boolean) {
         super.onHiddenChanged(hidden)
         if (hidden){
-
+            (activity as MainActivity ).setViewPageScroll(false)
         }else{
-
+            (activity as MainActivity ).setViewPageScroll(true)
         }
     }
 }
