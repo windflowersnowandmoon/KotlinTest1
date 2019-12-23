@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
     //    private lateinit var viewPageAdapter: ViewPageAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_main)
         initView()
         Log.i("MainActivity", "---->onCreate")
